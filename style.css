@@ -1,0 +1,308 @@
+/* Header Styling */
+*{
+    font-family: sans-serif;
+    font-style: normal;
+}
+header{
+    background-color: #316DC3;
+    color: white;
+    height: 80px;
+}
+.face{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.button{
+       border: 1px solid yellowgreen;
+       font-size: 15px;
+       margin-top: 10px;
+       margin-right: 25px;
+       background-color: #F5F5F5;
+       color: yellowgreen !important;
+}
+.bt{
+    margin-top: 5px;
+}
+
+
+@media only screen and (max-width:680px){
+    header{
+        height: 120px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    }
+
+.np{
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+marquee{
+    background-color: #316DC3;
+    color: white;
+}
+
+/* Introduction Box Styling */
+.intro{
+    background-color: #F7F8FA;
+}
+.b1{
+    color: #316DC3;
+}
+.b2{
+    color: #427900;
+}
+
+.box{
+    text-align: center;
+}
+.introp{
+    color: gray;
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    word-spacing: 5px ;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:680px){
+
+    .introp{
+        margin-left: 0;
+        margin-right: 0;
+    }
+ }
+
+        /* Box 1 Styling */
+        .ball{
+            background-color: #2655E8;
+            text-align: center;
+            color: white;
+            height: 300px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+          }
+          .blue-box{
+              text-align: center;
+              margin-right: 20px;
+          }
+          .b3{
+            color: #00FF00;
+            font-size: larger;   
+        }
+
+    @media only screen and (max-width:680px){
+
+    .ball{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        align-items: center;
+    }
+ }
+        /* BOXES-BOX-1-END */
+
+          /* BOX 2 STYLING */
+          .main{
+            background-color:  #F7F8FA;
+            height: 600px;
+            text-align: center;
+            margin-top: 25px;
+        }
+       
+        .main1,.main2{
+       
+           display: flex;
+           justify-content: space-around;
+           margin-bottom: 25px;
+           text-align: center;
+           
+       }
+       .favi{
+           margin-bottom: 15px;
+       }
+       .one,.two,.three,.for,.five,.six{
+           background-color: white;
+           color: #316DC3;
+           margin-left: 5px;
+           margin-right: 5px;
+           box-shadow: 2px 2px 3px gray;
+           width: 300px;
+           height: 200px;
+           justify-content: space-around;
+       }
+       
+       @media only screen and (max-width:680px){
+            
+           .main{
+               height: 1250px;
+           }
+           .main1,.main2{
+               flex-direction: column;
+               margin-bottom: 35px;
+           }
+           .one,.two,.three,.for,.five,.six{
+               margin-bottom: 35px;
+               height: 150px;
+           }
+        }
+       
+
+ /* Box3 STYLING */
+
+ .event{
+
+    height: 400px;
+    display: flex; 
+}
+
+   .bigo{
+       flex: 5;
+   }
+
+   .mission{
+
+    color: #316DC3;
+    margin-top: 50px;
+    margin-left: 25px;
+   }
+
+   .click{
+       color: #316DC3;
+       display: flex;
+       justify-content: space-around;
+       margin-top: 50px;
+       margin-bottom: 20px;
+       margin-right: 20px;
+       margin-left: 20px;
+   }
+
+
+   .click1{
+    color: #316DC3;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.dp3{
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.d1,.d2,.d3,.d4{
+    width: 300px;
+    height: 80px;
+    background-color: #F7F8FA;
+}
+
+
+
+.bigo1{
+    flex: 2;
+}
+.project{
+    color: #316DC3;
+    margin-top: 50px;
+}
+#pera{
+    color: gray;
+    margin-top: 20px;
+    line-height: 2em;
+    }
+
+    @media only screen and (max-width:680px){
+        .event,.click,.click1{
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (max-width:680px){
+        .d1,.d3,.click{
+            margin-bottom: 10px;
+        
+        }
+
+    }
+
+    @media only screen and (max-width:680px){
+        .event{
+            height: 1000px;
+        }
+        .project{
+            margin-top: -125px;
+        }
+
+    }
+
+       /* BOXES BOX 4 STYLING  */
+       
+       .pic{
+           text-align: center;
+       }
+       
+ 
+
+ /* FOOTER STYLING */
+
+ footer{
+     width: 100%;
+     margin-top: 200px;
+     background-color: #25272E;
+     height: 400px;
+     color: gray;
+     display: flex;
+     justify-content: space-between;
+ }
+ .fp,.fh4,.fh41{
+     margin-top: 80px;
+ }
+ .fp{
+     padding-left: 35px;
+ }
+.fh41{
+    padding-right: 90px;
+}
+.fh4,.fh41{
+    color: white;
+    font-weight: bold;
+}
+
+.fd{
+    background-color: #316DD9;
+    color: white;
+    font-weight: bold;
+    display: block;
+    height: 40px;
+    font-size: small;
+}
+p{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+@media only screen and (max-width:680px){
+    footer{
+        flex-direction: column;
+        height: 600px;
+    }
+    .fh4{
+        margin-top: -140px;
+    }
+    .fh41{
+        margin-top: -240px;
+    }
+
